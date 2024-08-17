@@ -6,4 +6,4 @@ serpapi
 google-search-results
 boto3
 apache-airflow
-python-dotenv
+python-dotenv 
