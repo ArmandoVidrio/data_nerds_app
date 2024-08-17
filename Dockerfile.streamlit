@@ -1,0 +1,23 @@
+# Base python image
+FROM python:3.9-slim
+
+# We establish the working directory in the container
+WORKDIR /app
+
+# We copy the requirements file to the container
+COPY requirements.txt .
+
+# We install the necessary dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Install pymysql
+RUN pip install pymysql
+
+# We copy our python app
+COPY streamlit_app .
+
+# Expose the streamlit port
+EXPOSE 8051
+
+# We execute our streamlit app
+CMD [ "streamlit", "run", "Top_skills.py" ]
