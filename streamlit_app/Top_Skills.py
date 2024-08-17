@@ -66,7 +66,5 @@ with col2:
 selected_skill = st.radio('Skills:', skills_options)
 
 st.write(f'The selected skill is: {selected_skill}')
-
 st.write(f'The selected country is: {selected_country}')
-
 st.write(f'The selected job title is: {selected_job_title}')
