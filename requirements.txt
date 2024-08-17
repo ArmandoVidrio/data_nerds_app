@@ -1,0 +1,8 @@
+requests
+pandas
+ipykernel
+streamlit
+serpapi
+google-search-results
+boto3
+apache-airflow

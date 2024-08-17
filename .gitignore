@@ -4,3 +4,4 @@ dags/
 data/
 logs/
 plugins/
+.env

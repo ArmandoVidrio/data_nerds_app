@@ -20,4 +20,4 @@ COPY streamlit_app .
 EXPOSE 8051
 
 # We execute our streamlit app
-CMD [ "streamlit", "run", "Top_skills.py" ]
+CMD [ "streamlit", "run", "Top_Skills.py" ]
